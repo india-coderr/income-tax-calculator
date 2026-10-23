@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Mona-Sans", sans-serif;
+    background-color: #262626;
+    color: #fff;
+
+}
+#containers{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: grid;
+}
+#right-container{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: grid;
+    /* border: 2px solid #f5eeee; */
+}
+#right-container h1{
+    font-size: 25px;
+    color: #a02020;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}   
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    margin-top: 20px;
+}
+form , #tax-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+}
+#tax-form , input{
+    font-size: 35px;
+    border: 2px solid #1a1a1a;
+    border-radius: 9px;
+    scrollbar-width: none;
+    scrollbar-color: transparent transparent;
+    text-indent: 10px;
+}
+#tax-form , button{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 9px;
+    background-color: #a02020;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
